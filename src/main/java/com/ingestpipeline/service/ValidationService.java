@@ -1,0 +1,12 @@
+package com.ingestpipeline.service;
+
+import org.springframework.stereotype.Service;
+
+import com.ingestpipeline.model.IncomingData;
+
+@Service
+public interface ValidationService {
+	
+	Boolean validateData(IncomingData incomingData);
+
+}
